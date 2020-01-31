@@ -1,0 +1,85 @@
+/* CSS DOCUMENT */
+
+body {
+	font-family: sans-serif;
+	color: #ffffff;
+	background: #2f2f2f;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+h1 {
+	font-size: 4em;
+	color: #45a8ff;
+	margin: 1em 0em 0em 0em;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0em 0em 1.5em;
+	color: #8ccaff;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 0em 0em 1.25em 0em;
+}
+
+h4 {
+	line-height: 1em;
+	margin: 0.5em;
+	padding: 0;
+}
+
+p {
+	line-height: 1em;
+	margin: 0.5em;
+	padding: 0;
+}
+
+li {
+	margin: 0em 0em 3em;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.price {
+	color: #bababa;
+	font-style: italic;
+}
+
+h3.appetizers {
+	color: #e1baff;
+}
+
+h4.appetizers {
+	color: #efdaff;
+}
+
+h3.salads {
+	color: #99ffca;
+}
+
+h4.salads {
+	color: #bcffdc;
+}
+
+h3.entrees {
+	color: #ff9090;
+}
+
+h4.entrees {
+	color: #ffb6b6;
+}
+
+h3.dessert {
+	color: #ffd884;
+}
+
+h4.dessert {
+	color: #ffe6b2;
+}
