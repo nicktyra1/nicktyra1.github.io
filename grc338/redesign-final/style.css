@@ -172,31 +172,37 @@ ul {
 	}
 
 	.menu .content {
-		margin: 8em auto auto auto;
-		padding: 0em 0em 5em 0em;
+		margin: 10em auto auto auto;
+		padding: 0em 20em 5em 20em;
 		position: absolute;
 		left: 3em;
 	}
 
 	.catering .content {
-		margin: 8em auto auto auto;
-		padding: 0em 0em 5em 0em;
+		margin: 10em auto auto auto;
+		padding: 0em 20em 5em 20em;
 		position: absolute;
 		left: 3em;
 	}
 
 	.contact .content {
-		margin: 8em auto auto auto;
-		padding: 0em 0em 5em 0em;
+		margin: 10em auto auto auto;
+		padding: 0em 35em 5em 35em;
 		position: absolute;
 		left: 3em;
 	}
 
 	.about .content {
-		margin: 8em auto auto auto;
-		padding: 0em 0em 5em 0em;
+		margin: 10em auto auto auto;
+		padding: 0em 20em 5em 20em;
 		position: absolute;
 		left: 3em;
+	}
+
+	.about .content img {
+		display: inline-block;
+		width: 40%;
+		margin: auto;
 	}
 
 }
