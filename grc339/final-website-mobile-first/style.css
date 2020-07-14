@@ -1,0 +1,104 @@
+/*CSS document*/
+
+body {
+    font-family: roboto,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #3b3b3b;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+header img {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+img.inline {
+    width: 100;
+    border-radius: 0;
+    margin-top: 5%;
+}
+
+figure {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.mainstory {
+    background-color: #7a7a7a;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+.mainstory p {
+    padding: 0 5% 10% 5%;
+}
+
+.imageteaser {
+    background-color: #535353;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+.teaser {
+    background-color: #444444;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+section h3 {
+    text-align: center;
+}
+
+article h2, p {
+    margin: 5%;
+}
+
+article h2 {
+    text-align: center;
+}
+
+article figcaption {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 85%;
+    margin: 2% 5% 5% 5%;
+}
+
+footer {
+    text-align: center;
+    background-color: #7a7a7a;
+    color: #ffffff;
+    margin: 5% 0 0 0;
+    padding: 2%;
+}
