@@ -61,6 +61,10 @@ ul {
     padding: 0 5% 10% 5%;
 }
 
+.mainstory h3 {
+    padding: 0 5% 0 5%;
+}
+
 .imageteaser {
     background-color: #535353;
     padding: 5%;
@@ -77,6 +81,7 @@ ul {
 
 section h3 {
     text-align: center;
+    text-transform: capitalize;
 }
 
 article h2, p {
@@ -101,4 +106,54 @@ footer {
     color: #ffffff;
     margin: 5% 0 0 0;
     padding: 2%;
+}
+
+main.gallery {
+    position: relative;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: calc(70% + 3em);
+}
+
+h1.gallery {
+    text-align: center;
+    margin: 5%;
+}
+
+.gallery figure {
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.gallery figcaption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0;
+    color: #dddddd;
+}
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
+}
+
+nav.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.2em;
+    margin: 0 5%;
+}
+
+input.gallery {
+    display: none;
 }
